@@ -6,7 +6,8 @@ define(function (require) {
 	"use strict";
 	var utils = {
 		addEvents : require("./events/addEvents")
-		, trigger : require("./events/trigger"), classExtend : require("./classExtend")
+		, trigger : require("./events/trigger")
+		, classExtend : require("./classExtend")
 
 	};
 	//for debugging

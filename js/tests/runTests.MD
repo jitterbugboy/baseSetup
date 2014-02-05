@@ -1,1 +1,1 @@
-karma start "tests/config/karma.conf.js"
+karma start "js/tests/config/karma.conf.js"
