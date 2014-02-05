@@ -1,7 +1,11 @@
-utils
+Base Setup
 =====
 
-a small utils library 
+my base for Projects
+
+It includes an isolated js setup with node running karma unit tests using: requirejs, sinon.js , jasmine-jquery (for fixtures), karma-coverage.
+
+TODO : cleanup files, add release folder and build
 
 
 install
