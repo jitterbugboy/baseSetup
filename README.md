@@ -1,22 +1,16 @@
-baseSetup
-=========
+utils
+=====
 
-a base setup for karma,requirejs, sinon -and maybe more
-
-ReQuirements
-node.js
-karma testrunner
-
-npm install karma-coverage --save-dev
-npm install karma-ie-launcher --save-dev
-npm install karma-safari-launcher --save-dev
-npm install karma-opera-launcher --save-dev
+a small utils library 
 
 
-Virtual machines
+install
+//base
+karma						: npm install karma
+coverage        : npm install karma-coverage --save-dev
 
-http://xdissent.github.io/ievms/#requirements
+//launchers
+safari launcher	: npm install karma-safari-launcher --save-dev
+opera						: npm install karma-opera-launcher --save-dev
 
-https://www.virtualbox.org/wiki/Downloads
-
-https://npmjs.org/package/karma-ievms
+VM Launcer			:npm install karma-ievms --save-dev
