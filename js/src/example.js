@@ -1,28 +1,11 @@
 define(function () {
-    "use strict";
-    /**
-     * @descriptions augments Child with Parent
-     * @param {Class} parentClass The Class to augment the child from
-     * @param {Class} childClass the class to extend with parents methods
-     */
-    var classExtend = function (parentClass, childClass) {
+  "use strict";
 
-        var tmpObj = function () {};
-        tmpObj.prototype = parentClass.prototype;
-        childClass.prototype = new tmpObj();
+  var example = function () {
 
-        childClass.prototype.constructor = childClass;
-        childClass.prototype._super = parentClass;
+    return 'hello world';
 
+  };
 
-        //if ever needed - test if it makes it possible to overide all instance
-        //childClass.prototype.superClass = parentClass.prototype;
-        //consider also :
-        //if(parentClass.prototype.constructor === Object.prototype.constructor){
-        //    parentClass.prototype.constructor = parentClass;
-        // }
-
-    };
-
-    return classExtend;
+  return example;
 });
