@@ -1,16 +1,20 @@
 requirejs.config({
-	baseUrl : 'src', urlArgs : "bust=" + (new Date()).getTime()
+  baseUrl : 'js/src/', urlArgs : "bust=" + (new Date()).getTime()
 });
 
-define(function (require) {
-	"use strict";
-	var utils = {
-		addEvents : require("./events/addEvents")
-		, trigger : require("./events/trigger")
-		, classExtend : require("./classExtend")
+//require(['example'],function (example) {
 
-	};
-	//for debugging
-	//window.utils = utils;
-	return utils;
+//  "use strict";
+
+//  console.log(example);
+
+//});
+
+define(function (require) {
+  "use strict";
+
+  var example = require('example');
+
+  console.log(example());
+
 });
