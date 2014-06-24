@@ -19,4 +19,3 @@ opera						: npm install karma-opera-launcher --save-dev
 
 VM Launcer			:npm install karma-ievms --save-dev
 
-hep
